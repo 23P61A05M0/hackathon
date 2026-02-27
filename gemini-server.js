@@ -5,7 +5,7 @@ const axios = require('axios');
 const path = require('path');
 
 const app = express();
-const PORT = 8000;
+const PORT = 9000;
 
 // Your Gemini API key here
 const GEMINI_API_KEY = 'AIzaSyB5uYAlTxWbv-KVA4h88PQi0FBD6hqrABg';
