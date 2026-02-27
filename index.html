@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Simple OpenAI Chatbot</title>
 </head>
+
 <body>
   <h2>Chat with AI 🤖</h2>
   <div id="chat"></div>
@@ -20,7 +22,7 @@
       chat.innerHTML += `<p><b>You:</b> ${message}</p>`;
       input.value = '';
 
-      const response = await fetch('http://localhost:5000/chat', {
+      const response = await fetch('http://localhost:5003/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message })
@@ -31,4 +33,5 @@
     }
   </script>
 </body>
+
 </html>
