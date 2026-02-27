@@ -57,5 +57,3 @@ This repository contains a simple AI chatbot web application built with Node.js,
 - To run on a different port, update the `PORT` constant in `gemini-server.js` and adjust any client-side URLs accordingly.
 
 ---
-
-Feel free to expand this README with additional information or instructions specific to your hackathon setup!
